@@ -1,0 +1,13 @@
+filename = 'comforts-forge-6.3.5-1.20.1.jar'
+name = 'Comforts'
+side = 'both'
+
+[download]
+hash = 'c3b58a99f618ae7d2903e754f7d229263bcc23f15d21df355575b4c198dcca8d6e3fc414a02343ce658b0203f67ed862a0876164eb587cc0b70490a89968beb2'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/SaCpeal4/versions/KgzjTw3n/comforts-forge-6.3.5%2B1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'SaCpeal4'
+version = 'KgzjTw3n'

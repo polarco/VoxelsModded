@@ -1,0 +1,13 @@
+filename = 'Bountiful-6.0.3-1.20.1-forge.jar'
+name = 'Bountiful'
+side = 'both'
+
+[download]
+hash = '02eb2051f9e255993e433a0cef1b78a36569241bf6fa966dc2ea4db3474ea213e2f64f69606b53b00221cb4d136a866bf4069d6a7ad969a2c31dfe7a0909db28'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/BpwWFOVM/versions/j44RssVC/Bountiful-6.0.3%2B1.20.1-forge.jar'
+
+[update.modrinth]
+mod-id = 'BpwWFOVM'
+version = 'j44RssVC'

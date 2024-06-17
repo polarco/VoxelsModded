@@ -1,0 +1,13 @@
+filename = 'inventorio-mc1.20.1-forge-v1.10.3.jar'
+name = 'Inventorio (Forge)'
+side = 'both'
+
+[download]
+hash = '5f1dd422290c49982aa435e03ede87df42e0fffb'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5262222
+project-id = 497122

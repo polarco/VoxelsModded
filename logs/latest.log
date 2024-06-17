@@ -1,0 +1,1077 @@
+[09:06:45] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.1, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[09:06:45] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.10 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
+[09:06:49] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler]: ImmediateWindowProvider not loading because launch target is forgeserver
+[09:06:49] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/host/Documents/VoxelsModded/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23112!/ Service=ModLauncher Env=SERVER
+[09:06:50] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[09:06:50] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector]: Attempted to select a dependency jar for JarJar which was passed in as source: geckolib. Using Mod File: C:\Users\host\Documents\VoxelsModded\mods\geckolib-forge-1.20.1-4.4.6.jar
+[09:06:50] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector]: Attempted to select a dependency jar for JarJar which was passed in as source: curios. Using Mod File: C:\Users\host\Documents\VoxelsModded\mods\curios-forge-5.9.1+1.20.1.jar
+[09:06:50] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator]: Found 25 dependencies adding them to mods collection
+[09:06:56] [main/INFO] [mixin]: Compatibility level set to JAVA_17
+[09:06:56] [main/INFO] [mixin]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
+[09:06:56] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler]: Launching target 'forgeserver' with arguments [nogui]
+[09:06:56] [main/INFO] [ModernFix]: Loaded configuration file for ModernFix 5.18.0+mc1.20.1: 81 options available, 0 override(s) found
+[09:06:56] [main/INFO] [ModernFix]: Applying Nashorn fix
+[09:06:56] [main/INFO] [ModernFix]: Applied Forge config corruption patch
+[09:06:56] [main/INFO] [Embeddium]: Loaded configuration file for Embeddium: 266 options available, 0 override(s) found
+[09:06:56] [main/WARN] [mixin]: Reference map 'handcrafted-forge-1.20.1-forge-refmap.json' for handcrafted.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:06:56] [main/WARN] [mixin]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:06:56] [main/WARN] [mixin]: Reference map 'yungsextras.refmap.json' for yungsextras_forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:06:56] [main/WARN] [mixin]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:06:56] [main/WARN] [mixin]: Reference map 'EpheroLib-refmap.json' for epherolib.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:06:56] [main/INFO] [Embeddium Extra]: Loaded configuration file for Sodium Extra: 35 options available, 0 override(s) found
+[09:06:56] [main/WARN] [mixin]: Reference map 'naturalist-forge-forge-refmap.json' for naturalist.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:06:56] [main/WARN] [mixin]: Reference map 'cookingforblockheads.refmap.json' for cookingforblockheads.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:06:56] [main/WARN] [mixin]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:06:56] [main/WARN] [mixin]: Reference map 'chiselsandbits.refmap.json' for chisels-and-bits.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:06:57] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/inventory/AnvilMenu
+[09:06:57] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo]: Patching IForgeItemStack#getEnchantmentLevel
+[09:06:57] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo]: Patching IForgeItemStack#getEnchantmentLevel
+[09:06:57] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo]: Patching IForgeItemStack#getEnchantmentLevel
+[09:06:57] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo]: Patching IForgeItemStack#getEnchantmentLevel
+[09:06:57] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/item/CreativeModeTabs
+[09:06:58] [main/WARN] [mixin]: Error loading class: dev/latvian/mods/kubejs/recipe/RecipesEventJS (java.lang.ClassNotFoundException: dev.latvian.mods.kubejs.recipe.RecipesEventJS)
+[09:06:58] [main/WARN] [mixin]: @Mixin target dev.latvian.mods.kubejs.recipe.RecipesEventJS was not found sliceanddice.mixins.json:RecipeEventJSMixin
+[09:06:58] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner]: Attempted to load class net/minecraft/client/multiplayer/MultiPlayerGameMode for invalid dist DEDICATED_SERVER
+[09:06:58] [main/WARN] [mixin]: Error loading class: net/minecraft/client/multiplayer/MultiPlayerGameMode (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/MultiPlayerGameMode for invalid dist DEDICATED_SERVER)
+[09:06:58] [main/WARN] [mixin]: @Mixin target net.minecraft.client.multiplayer.MultiPlayerGameMode was not found mixins.cofhcore.json:MultiPlayerGameModeMixin
+[09:06:58] [main/INFO] [com.cupboard.Cupboard]: Loaded config for: recipeessentials.json
+[09:06:58] [main/INFO] [com.cupboard.Cupboard]: Loaded config for: structureessentials.json
+[09:06:58] [main/WARN] [mixin]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
+[09:06:58] [main/WARN] [mixin]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin
+[09:06:58] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+[09:06:58] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis]: Replaced 1 calls to Enchantment#isTreasureOnly() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+[09:06:58] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis]: Replaced 1 calls to Enchantment#isTradeable() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+[09:06:58] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction
+[09:06:58] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis]: Replaced 1 calls to Enchantment#isDiscoverable() in net/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction
+[09:06:59] [main/WARN] [mixin]: Error loading class: vazkii/quark/addons/oddities/inventory/BackpackMenu (java.lang.ClassNotFoundException: vazkii.quark.addons.oddities.inventory.BackpackMenu)
+[09:06:59] [main/WARN] [mixin]: Error loading class: net/minecraft/client/gui/screens/inventory/CraftingScreen (java.lang.ClassNotFoundException: net.minecraft.client.gui.screens.inventory.CraftingScreen)
+[09:06:59] [main/WARN] [mixin]: @Mixin target net.minecraft.client.gui.screens.inventory.CraftingScreen was not found fastbench.mixins.json:MixinCraftingScreen
+[09:06:59] [main/INFO] [memoryleakfix]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[09:06:59] [main/INFO] [memoryleakfix]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[09:06:59] [main/INFO] [MixinExtras|Service]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[09:07:00] [main/INFO] [net.minecraft.server.Bootstrap]: ModernFix reached bootstrap stage (47.55 s after launch)
+[09:07:00] [main/WARN] [mixin]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[09:07:00] [main/WARN] [mixin]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[09:07:00] [main/INFO] [ModernFix]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[09:07:00] [main/INFO] [ModernFix]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[09:07:01] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/item/CreativeModeTabs
+[09:07:01] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis]: Replaced 1 calls to Enchantment#getMaxLevel() in org/violetmoon/quark/content/experimental/module/GameNerfsModule
+[09:07:02] [main/INFO] [net.minecraft.server.Bootstrap]: Vanilla bootstrap took 1861 milliseconds
+[09:07:02] [main/WARN] [mixin]: @Redirect conflict. Skipping securitycraft.mixins.json:camera.ServerPlayerMixin->@Redirect::securitycraft$tick(Lnet/minecraft/server/level/ServerPlayer;DDDFF)V with priority 1100, already redirected by railways-common.mixins.json:conductor_possession.ServerPlayerMixin->@Redirect::railways$securitycraft$tick(Lnet/minecraft/server/level/ServerPlayer;DDDFF)V with priority 1200
+[09:07:03] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis]: Replaced 5 calls to Enchantment#getMaxLevel() in org/violetmoon/quark/content/tools/module/AncientTomesModule
+[09:07:03] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo]: Patching IForgeItemStack#getEnchantmentLevel
+[09:07:03] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo]: Patching IForgeItemStack#getEnchantmentLevel
+[09:07:03] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/inventory/AnvilMenu
+[09:07:04] [main/WARN] [mixin]: @Final field f_26027_:Lnet/minecraft/world/entity/ai/targeting/TargetingConditions; in guardvillagers.mixins.json:DefendVillageGoalGolemMixin should be final
+[09:07:05] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis]: Patching FishingHook#catchingFish
+[09:07:05] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction
+[09:07:05] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis]: Replaced 1 calls to Enchantment#isDiscoverable() in net/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction
+[09:07:06] [main/WARN] [mixin]: Static binding violation: PRIVATE @Overwrite method m_47505_ in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[09:07:07] [modloading-worker-0/INFO] [scena-forge]: Initialized scena-forge
+[09:07:08] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id architectury:sync_ids
+[09:07:08] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id powah:packet
+[09:07:08] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+[09:07:08] [modloading-worker-0/ERROR] [Embeddium]: Failed to update fingerprint
+java.lang.NoClassDefFoundError: net/minecraft/client/Minecraft
+	at me.jellysquid.mods.sodium.client.data.fingerprint.FingerprintMeasure.create(FingerprintMeasure.java:19) ~[embeddium-0.3.20-mc1.20.1.jar%23476!/:?]
+	at me.jellysquid.mods.sodium.client.SodiumClientMod.updateFingerprint(SodiumClientMod.java:102) ~[embeddium-0.3.20-mc1.20.1.jar%23476!/:?]
+	at me.jellysquid.mods.sodium.client.SodiumClientMod.<init>(SodiumClientMod.java:42) ~[embeddium-0.3.20-mc1.20.1.jar%23476!/:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:76) ~[javafmllanguage-1.20.1-47.3.1.jar%23610!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$10(ModContainer.java:123) ~[fmlcore-1.20.1-47.3.1.jar%23609!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+Caused by: java.lang.ClassNotFoundException: net.minecraft.client.Minecraft
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:157) ~[securejarhandler-mohist-2.1.11.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	... 17 more
+[09:07:08] [modloading-worker-0/INFO] [PluginManager]: Scanning classes for industrialforegoing
+[09:07:08] [modloading-worker-0/INFO] [PluginManager]: Found FeaturePluginInstance for class PatchouliPlugin for plugin patchouli
+[09:07:08] [modloading-worker-0/INFO] [PluginManager]: Found FeaturePluginInstance for class CuriosPlugin for plugin curios
+[09:07:08] [modloading-worker-0/INFO] [PluginManager]: Constructed class PatchouliPlugin for plugin patchouli for mod industrialforegoing
+[09:07:08] [modloading-worker-0/INFO] [PluginManager]: Constructed class CuriosPlugin for plugin curios for mod industrialforegoing
+[09:07:08] [modloading-worker-0/INFO] [PluginManager]: Executing phase CONSTRUCTION for plugin class PatchouliPlugin
+[09:07:08] [modloading-worker-0/INFO] [PluginManager]: Executing phase CONSTRUCTION for plugin class CuriosPlugin
+[09:07:08] [modloading-worker-0/INFO] [PluginManager]: Executing phase PRE_INIT for plugin class PatchouliPlugin
+[09:07:08] [modloading-worker-0/INFO] [PluginManager]: Executing phase PRE_INIT for plugin class CuriosPlugin
+[09:07:08] [modloading-worker-0/INFO] [ironfurnaces.IronFurnaces]: Initializing Update Checker...
+[09:07:08] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces]: Starting Update Check...
+[09:07:08] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces]: Update Check done!
+[09:07:08] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces]: Iron Furnaces is up to date!
+[09:07:09] [modloading-worker-0/INFO] [com.aetherteam.cumulus.Cumulus]: Disabling Cumulus as it is on server.
+[09:07:09] [modloading-worker-0/INFO] [PluginManager]: Executing phase INIT for plugin class PatchouliPlugin
+[09:07:09] [modloading-worker-0/INFO] [PluginManager]: Executing phase INIT for plugin class CuriosPlugin
+[09:07:09] [modloading-worker-0/INFO] [PluginManager]: Executing phase POST_INIT for plugin class PatchouliPlugin
+[09:07:09] [modloading-worker-0/INFO] [PluginManager]: Executing phase POST_INIT for plugin class CuriosPlugin
+[09:07:10] [modloading-worker-0/WARN] [fallingleaves]: Falling Leaves is a client only mod and should be removed from the mods list
+[09:07:10] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: Mohist mod loading.....
+[09:07:10] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: EventDispatcherRegistry initialized
+[09:07:10] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod]: Forge mod loading, version 47.3.1, for MC 1.20.1 with MCP 20230612.114412
+[09:07:10] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: MinecraftForge v47.3.1 Initialized
+[09:07:10] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: NeoForge v47.1.105 Initialized
+[09:07:11] [modloading-worker-0/INFO] [Inventorio]: Mod integration succeeded for Clumps
+[09:07:11] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge]: Kotlin For Forge Enabled!
+[09:07:12] [modloading-worker-0/INFO] [com.epherical.epherolib.config.CommonConfig]: Creating default config file: croptopia_v3.conf
+[09:07:13] [modloading-worker-0/INFO] [ModernFix]: Bypassed Mojang DFU
+[09:07:13] [modloading-worker-0/INFO] [ModernFix]: Instantiating Mojang DFU
+[09:07:14] [modloading-worker-0/INFO] [Bookshelf]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[09:07:14] [modloading-worker-0/INFO] [Bookshelf]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[09:07:14] [modloading-worker-0/INFO] [Bookshelf]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[09:07:14] [modloading-worker-0/INFO] [Bookshelf]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[09:07:14] [modloading-worker-0/INFO] [Bookshelf]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[09:07:14] [modloading-worker-0/INFO] [Bookshelf]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[09:07:14] [modloading-worker-0/INFO] [Bookshelf]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[09:07:14] [modloading-worker-0/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+[09:07:14] [modloading-worker-0/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis]: Replaced 1 calls to Enchantment#isTreasureOnly() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+[09:07:14] [modloading-worker-0/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis]: Replaced 1 calls to Enchantment#isTradeable() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+[09:07:15] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete]: [KONKRETE] Successfully initialized!
+[09:07:15] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete]: [KONKRETE] Server-side libs ready to use!
+[09:07:16] [modloading-worker-0/INFO] [Collective]: Loading Collective version 7.61.
+[09:07:16] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id ftbultimine:key_pressed
+[09:07:16] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id ftbultimine:mode_changed
+[09:07:16] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id ftbultimine:sync_config_to_server
+[09:07:16] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[09:07:16] [modloading-worker-0/INFO] [com.cupboard.Cupboard]: Loaded config for: cupboard.json
+[09:07:16] [modloading-worker-0/WARN] [bigreactors]: The mod rubidium was detected: disabling morphing animation to avoid crashing while rendering.
+[09:07:18] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[09:07:18] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[09:07:18] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[09:07:18] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[09:07:18] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[09:07:18] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[09:07:18] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[09:07:18] [modloading-worker-0/INFO] [Dungeon Crawl]: Here we go! Launching Dungeon Crawl 2.3.14...
+[09:07:18] [modloading-worker-0/INFO] [coroutil]: forge loader environment detected
+[09:07:18] [modloading-worker-0/INFO] [PluginManager]: Scanning classes for titanium
+[09:07:19] [modloading-worker-0/INFO] [MEGA Cells]: Initialised items.
+[09:07:19] [modloading-worker-0/INFO] [MEGA Cells]: Initialised blocks.
+[09:07:19] [modloading-worker-0/INFO] [MEGA Cells]: Initialised block entities.
+[09:07:19] [modloading-worker-0/INFO] [Mystical Agriculture]: Registered plugin: com.blakebr0.mysticalagriculture.lib.ModCorePlugin
+[09:07:19] [modloading-worker-0/INFO] [Mystical Agriculture]: Registered plugin: com.blakebr0.mysticalagradditions.lib.ModCorePlugin
+[09:07:19] [modloading-worker-0/INFO] [Mystical Agriculture]: Loaded 2 plugins
+[09:07:19] [modloading-worker-0/INFO] [Railways]: Registered bogey styles from railways
+[09:07:19] [modloading-worker-0/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis]: Replaced 5 calls to Enchantment#getMaxLevel() in org/violetmoon/quark/content/tools/module/AncientTomesModule
+[09:07:19] [modloading-worker-0/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis]: Replaced 1 calls to Enchantment#getMaxLevel() in org/violetmoon/quark/content/experimental/module/GameNerfsModule
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Discovered 164 modules to load.
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Abacus...
+[09:07:20] [modloading-worker-0/INFO] [Railways]: Registering data fixers
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Adjustable Chat...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Ambient Discs...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Ancient Tomes...
+[09:07:20] [modloading-worker-0/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis]: Replaced 3 calls to Enchantment#getMaxLevel() in org/violetmoon/quark/content/tools/item/AncientTomeItem
+[09:07:20] [modloading-worker-0/INFO] [com.mojang.datafixers.DataFixerBuilder]: 0 Datafixer optimizations took 2 milliseconds
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Ancient Wood...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Armed Armor Stands...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Auto Walk Keybind...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Automatic Recipe Unlock...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Automatic Tool Restock...
+[09:07:20] [modloading-worker-0/INFO] [Railways]: Registering tracks for Hex Casting
+[09:07:20] [modloading-worker-0/INFO] [Railways]: Registering tracks for Oh The Biomes You'll Go
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Azalea Wood...
+[09:07:20] [modloading-worker-0/INFO] [Railways]: Registering tracks for Blue Skies
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Back Button Keybind...
+[09:07:20] [modloading-worker-0/INFO] [Railways]: Registering tracks for Twilight Forest
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Backpack...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Beach Villagers...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Beacon Redirection...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Better Elytra Rocket...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Big Stone Clusters...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Blossom Trees...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Bottled Cloud...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Buckets Show Inhabitants...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Camera...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Campfires Boost Elytra...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Celebratory Lamps...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Chains Connect Blocks...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Chest Searching...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Chorus Vegetation...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Chute...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Climate Control Remover...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Color Runes...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Compasses Work Everywhere...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Compressed Blocks...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Coral On Cactus...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Corundum...
+[09:07:20] [modloading-worker-0/INFO] [Railways]: Registering tracks for Biomes O' Plenty
+[09:07:20] [modloading-worker-0/INFO] [Railways]: Registering tracks for Nature's Spirit
+[09:07:20] [modloading-worker-0/INFO] [Railways]: Registering tracks for Dreams and Desires
+[09:07:20] [modloading-worker-0/INFO] [Railways]: Registering tracks for Quark
+[09:07:20] [modloading-worker-0/INFO] [Railways]: Registering tracks for TerraFirmaCraft
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Crabs...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Crafter...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Crate...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Diamond Repair...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Dispensers Place Blocks...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Double Door Opening...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Dragon Scales...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Duskbound Blocks...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Dyeable Item Frames...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Easy Transfering...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Elytra Indicator...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Emotes...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Enchantment Predicates...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Enchantments Begone...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Ender Watcher...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Endermosh Music Disc...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Enhanced Ladders...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Expanded Item Interactions...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Fairy Rings...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Fallen Logs...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Feeding Trough...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Forgotten...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Foxhound...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Framed Glass...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Game Nerfs...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Glass Item Frame...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Glass Shard...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Glimmering Weald...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Gold Bars...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Gold Tools Have Fortune...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Grab Chickens...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Grate...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Gravisand...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Greener Grass...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Hedges...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Hoe Harvesting...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Hollow Logs...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Horses Swim...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Hotbar Changer...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Improved Sponges...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Improved Tooltips...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Industrial Palette...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Inventory Sorting...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Iron Rod...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Item Sharing...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Japanese Palette...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Leaf Carpet...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Lock Rotation...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Long Range Pick Block...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Magma Keeps Concrete Powder...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Magnets...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Map Washing...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Matrix Enchanting...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Metal Buttons...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Microcrafting Helper...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Midori...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Monster Box...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module More Banner Layers...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module More Brick Types...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module More Mud Blocks...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module More Note Block Sounds...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module More Potted Plants...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Narrator Readout...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Nether Brick Fence Gate...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Nether Obsidian Spikes...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module New Stone Types...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module No Durability On Cosmetics...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module No More Lava Pockets...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Obsidian Plate...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Overlay Shader...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Parrot Eggs...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Pat The Dogs...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Pathfinder Maps...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Permafrost...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Petals On Water...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Pickarang...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Pig Litters...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Pipes...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Pistons Move Tile Entities...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Poison Potato Usage...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Quick Armor Swapping...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Rainbow Lamps...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Raw Metal Bricks...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Reacharound Placing...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Redstone Randomizer...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Renewable Spore Blossoms...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Replace Scaffolding...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Rope...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Safer Creatures...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Seed Pouch...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Shear Vines...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Shiba...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Shingles...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Shulker Packing...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Simple Harvest...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Skull Pikes...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Slabs To Blocks...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Slime In A Bucket...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Slimes To Magma Cubes...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Snow Golem Player Heads...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Soul Candles...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Soul Sandstone...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Spawner Replacer...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Spiral Spires...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Stonelings...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Stools...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Sturdy Stone...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Thatch...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Tiny Potato...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Torch Arrow...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Toretoise...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Totem Of Holding...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Trowel...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Usage Ticker...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Uses For Curses...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Utility Recipes...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Variant Animal Textures...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Variant Bookshelves...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Variant Chests...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Variant Furnaces...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Variant Ladders...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Variant Selector...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Vertical Planks...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Vertical Slabs...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Vexes Die With Their Masters...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Villager Rerolling Rework...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Villagers Follow Emeralds...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Wooden Posts...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Wool Shuts Up Minecarts...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Wraith...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Zombie Villagers On Normal...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructing module More Stone Variants...
+[09:07:20] [modloading-worker-0/INFO] [quark-zeta]: Constructed 164 modules.
+[09:07:21] [modloading-worker-0/WARN] [de.keksuccino.justzoom.JustZoom]: [JUST ZOOM] Disabling 'Just Zoom' since it's a client-side mod and current environment is server!
+[09:07:21] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility]: ExpandAbility here, who dis?
+[09:07:21] [modloading-worker-0/INFO] [mod.chiselsandbits.forge.Forge]: Initialized Chisels&Bits - Forge
+[09:07:21] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModBlockEntityTypes]: Loaded block entity configuration.
+[09:07:21] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModBlocks]: Loaded block configuration.
+[09:07:21] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModChiselModeGroups]: Loaded chisel mode group configuration.
+[09:07:21] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModChiselModes]: Loaded chisel mode configuration.
+[09:07:21] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModContainerTypes]: Loaded container type configuration.
+[09:07:21] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModCreativeTabs]: Loaded item group configuration.
+[09:07:21] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModItems]: Loaded item configuration.
+[09:07:21] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModMetadataKeys]: Loaded metadata key configuration.
+[09:07:21] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModModelProperties]: Loaded model property configuration.
+[09:07:21] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModModificationOperation]: Loaded modification operation configuration.
+[09:07:21] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModModificationOperationGroups]: Loaded modification operation group configuration.
+[09:07:21] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModPatternPlacementTypes]: Loaded pattern placement type configuration.
+[09:07:21] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModRecipeSerializers]: Loaded recipe serializer configuration.
+[09:07:21] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModTags]: Loaded tag configuration.
+[09:07:21] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModRecipeTypes]: Registering recipe types.
+[09:07:21] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModEventHandler]: Registering event handlers
+[09:07:21] [modloading-worker-0/INFO] [mod.chiselsandbits.forge.platform.ForgePluginDiscoverer]: Found and loaded ChiselsAndBits plugin: create
+[09:07:23] [main/INFO] [zeta-internal]: Dispatching ZRegister to 3 listeners
+[09:07:23] [main/INFO] [zeta-internal]: Dispatching ZRegister$Post to 1 listener
+[09:07:23] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:23] [main/INFO] [quark-zeta]: Dispatching ZRegister to 98 listeners
+[09:07:23] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis]: Replaced 1 calls to Enchantment#getMaxLevel() in org/violetmoon/quark/content/tools/loot/EnchantTome
+[09:07:23] [main/INFO] [quark-zeta]: Dispatching ZRegister$Post to 6 listeners
+[09:07:23] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:27] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:28] [main/INFO] [Moonlight]: Initialized block sets in 42ms
+[09:07:28] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:28] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:28] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:29] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:29] [main/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id ae2wtlib:cycle_terminal
+[09:07:29] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl]: Registry entry listened Registry Entry [minecraft:entity_type / artifacts:mimic] was not realized!
+[09:07:29] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:30] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:30] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:30] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:30] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:30] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:30] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:30] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:30] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:30] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:30] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:30] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:30] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:30] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:30] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:31] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:32] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry forge:global_loot_modifier_serializers: The object RecordCodec[UnitDecoder[vectorwing.farmersdelight.common.loot.modifier.AddItemModifier$$Lambda$35301/0x00000246069b5b18@427fede3] * Field[conditions: passthrough[flatXmapped]] * Field[item: net.minecraftforge.registries.ForgeRegistry$RegistryCodec@116d8477] * OptionalFieldCodec[count: Int][xmapped]] has been registered twice for the same name farmersdelight:add_item.
+[09:07:32] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry forge:global_loot_modifier_serializers: The object RecordCodec[UnitDecoder[vectorwing.farmersdelight.common.loot.modifier.AddLootTableModifier$$Lambda$35304/0x00000246069b61c0@1566d989] * Field[conditions: passthrough[flatXmapped]] * Field[lootTable: String[comapFlatMapped]]] has been registered twice for the same name farmersdelight:add_loot_table.
+[09:07:32] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry forge:global_loot_modifier_serializers: The object RecordCodec[UnitDecoder[vectorwing.farmersdelight.common.loot.modifier.PastrySlicingModifier$$Lambda$35307/0x00000246069b6858@31ff16aa] * Field[conditions: passthrough[flatXmapped]] * Field[slice: net.minecraftforge.registries.ForgeRegistry$RegistryCodec@116d8477]] has been registered twice for the same name farmersdelight:pastry_slicing.
+[09:07:32] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:32] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:32] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:32] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:32] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:32] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:32] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:32] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:32] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:32] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:33] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:33] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:33] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:33] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:33] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:33] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:33] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:33] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:33] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:33] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:33] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:33] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:33] [main/INFO] [uk.co.hexeption.aeinfinitybooster.AEInfinityBooster]: Creating Creative Mode Tab
+[09:07:33] [main/INFO] [quark-zeta]: Dispatching ForgeZEntityAttributeCreation (as ZEntityAttributeCreation) to 7 listeners
+[09:07:33] [main/INFO] [PluginManager]: Executing phase CONFIG_LOAD for plugin class PatchouliPlugin
+[09:07:33] [main/INFO] [PluginManager]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[09:07:33] [main/INFO] [PluginManager]: Executing phase CONFIG_LOAD for plugin class PatchouliPlugin
+[09:07:33] [main/INFO] [PluginManager]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[09:07:33] [main/INFO] [PluginManager]: Executing phase CONFIG_LOAD for plugin class PatchouliPlugin
+[09:07:33] [main/INFO] [PluginManager]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[09:07:33] [main/INFO] [PluginManager]: Executing phase CONFIG_LOAD for plugin class PatchouliPlugin
+[09:07:33] [main/INFO] [PluginManager]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[09:07:33] [main/INFO] [PluginManager]: Executing phase CONFIG_LOAD for plugin class PatchouliPlugin
+[09:07:33] [main/INFO] [PluginManager]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[09:07:33] [main/INFO] [zeta-internal]: Dispatching ZConfigChanged to 2 listeners
+[09:07:33] [main/INFO] [zeta]: 'zeta' is enabling Zeta's piston structure resolver.
+[09:07:34] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Configuration file C:\Users\host\Documents\VoxelsModded\config\enderio\machines-common.toml is not correct. Correcting
+[09:07:34] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key poweredSpawner.Spawn Type was corrected from ENTITYTYPE to its default, ENTITYTYPE. 
+[09:07:34] [main/INFO] [quark-zeta]: Dispatching ZConfigChanged to 48 listeners
+[09:07:34] [modloading-worker-0/INFO] [PluginManager]: Executing phase COMMON_SETUP for plugin class PatchouliPlugin
+[09:07:34] [modloading-worker-0/INFO] [PluginManager]: Executing phase COMMON_SETUP for plugin class CuriosPlugin
+[09:07:34] [modloading-worker-0/INFO] [thetadev.constructionwand.ConstructionWand]: ConstructionWand says hello - may the odds be ever in your favor.
+[09:07:34] [modloading-worker-0/INFO] [thetadev.constructionwand.ConstructionWand]: Botania integration added
+[09:07:34] [modloading-worker-0/INFO] [integrateddynamicscompat]: Registered packet handler.
+[09:07:34] [modloading-worker-0/INFO] [mekanism.common.Mekanism]: Version 10.4.8 initializing...
+[09:07:34] [modloading-worker-0/INFO] [zeta-internal]: Dispatching ForgeZCommonSetup (as ZCommonSetup) to 2 listeners
+[09:07:34] [modloading-worker-0/INFO] [com.chunksending.ChunkSending]: chunksending mod initialized
+[09:07:34] [modloading-worker-0/INFO] [integrateddynamics]: Registered packet handler.
+[09:07:34] [modloading-worker-0/INFO] [com.recipeessentials.RecipeEssentials]: recipeessentials mod initialized
+[09:07:34] [modloading-worker-0/INFO] [mekanism.common.Mekanism]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
+[09:07:34] [modloading-worker-0/INFO] [mekanism.common.Mekanism]: Mod loaded.
+[09:07:34] [modloading-worker-0/INFO] [com.gpumemleakfix.Gpumemleakfix]: gpumemleakfix mod initialized
+[09:07:34] [modloading-worker-0/INFO] [com.structureessentials.StructureEssentials]: structureessentials mod initialized
+[09:07:34] [modloading-worker-0/INFO] [mekanism.common.Mekanism]: Loaded 'Mekanism: Generators' module.
+[09:07:34] [modloading-worker-0/INFO] [com.axedgaming.endersdelight.EndersDelight]: HELLO FROM PREINIT
+[09:07:34] [modloading-worker-0/INFO] [com.axedgaming.endersdelight.EndersDelight]: DIRT BLOCK >> translation{key='block.minecraft.dirt', args=[]}
+[09:07:34] [modloading-worker-0/INFO] [mekanism.common.Mekanism]: Loaded 'Mekanism: Tools' module.
+[09:07:34] [modloading-worker-0/INFO] [Dungeon Crawl]: Common Setup
+[09:07:35] [modloading-worker-0/INFO] [Mystical Agriculture]: Loaded 142 crops
+[09:07:35] [modloading-worker-0/INFO] [Mystical Agriculture]: Loaded 7 crop tiers
+[09:07:35] [modloading-worker-0/INFO] [Mystical Agriculture]: Loaded 2 crop types
+[09:07:35] [modloading-worker-0/INFO] [quark-zeta]: Dispatching ForgeZCommonSetup (as ZCommonSetup) to 41 listeners
+[09:07:35] [modloading-worker-0/INFO] [Mystical Agriculture]: Loaded 55 augments
+[09:07:35] [modloading-worker-0/INFO] [Mystical Agriculture]: Loaded 20 mob soul types
+[09:07:35] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 4 clay_ball = 1 clay
+[09:07:35] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 4 snowball = 1 snow_block
+[09:07:35] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 4 glowstone_dust = 1 glowstone
+[09:07:35] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 4 brick = 1 bricks
+[09:07:35] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 4 nether_brick = 1 nether_bricks
+[09:07:35] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 9 nether_wart = 1 nether_wart_block
+[09:07:35] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 4 quartz = 1 quartz_block
+[09:07:35] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 9 melon_slice = 1 melon
+[09:07:35] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 4 sand = 1 sandstone
+[09:07:35] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 4 red_sand = 1 red_sandstone
+[09:07:35] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers]: New compacting rule 4 clay_ball = 1 clay
+[09:07:35] [main/INFO] [zeta-internal]: Dispatching ZConfigChanged to 2 listeners
+[09:07:35] [main/INFO] [quark-zeta]: Dispatching ZConfigChanged to 48 listeners
+[09:07:35] [main/INFO] [journeymap]: Initializing Packet Registries
+[09:07:35] [main/INFO] [Moonlight]: Initialized color sets in 150ms
+[09:07:35] [main/INFO] [MEGA Cells]: Initialised AE2WT integration.
+[09:07:35] [main/INFO] [Supplementaries]: Finished mod setup in: [20, 5, 0, 1, 0, 0, 9, 9, 0] ms
+[09:07:36] [modloading-worker-0/INFO] [io.redspace.ironsspellbooks.IronsSpellbooks]: Got IMC []
+[09:07:36] [modloading-worker-0/INFO] [zeta-internal]: Dispatching ForgeZLoadComplete (as ZLoadComplete) to 1 listener
+[09:07:36] [modloading-worker-0/INFO] [quark-zeta]: Dispatching ForgeZLoadComplete (as ZLoadComplete) to 6 listeners
+[09:07:36] [modloading-worker-0/INFO] [AttributeFix]: Loaded values for 72 compatible attributes.
+[09:07:36] [modloading-worker-0/INFO] [AttributeFix]: Loaded 72 values from config.
+[09:07:36] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster]: Applying mega torch entity block list overrides...
+[09:07:36] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster]: Applying dread lamp entity block list overrides...
+[09:07:36] [modloading-worker-0/INFO] [AttributeFix]: Saving config file. 72 entries.
+[09:07:36] [modloading-worker-0/INFO] [AttributeFix]: Applying changes for 72 attributes.
+[09:07:36] [modloading-worker-0/INFO] [Jade]: Start loading plugin at dev.shadowsoffire.apotheosis.spawn.compat.SpawnerHwylaPlugin
+[09:07:36] [modloading-worker-0/INFO] [Jade]: Start loading plugin at dev.shadowsoffire.apotheosis.ench.compat.EnchHwylaPlugin
+[09:07:36] [modloading-worker-0/INFO] [Jade]: Start loading plugin at dev.shadowsoffire.apotheosis.adventure.compat.AdventureHwylaPlugin
+[09:07:36] [modloading-worker-0/INFO] [Jade]: Start loading plugin at xfacthd.framedblocks.common.compat.jade.FramedJadePlugin
+[09:07:36] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.mcjty_lib.McjtyLibPlugin
+[09:07:36] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.lootr.LootrPlugin
+[09:07:36] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.general.GeneralPlugin
+[09:07:36] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.enderio.EnderIOPlugin
+[09:07:36] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.create.CreatePlugin
+[09:07:36] [modloading-worker-0/INFO] [Jade]: Start loading plugin at net.geforcemods.securitycraft.compat.waila.JadeDataProvider
+[09:07:36] [modloading-worker-0/INFO] [Jade]: Start loading plugin at mekanism.common.integration.lookingat.jade.MekanismJadePlugin
+[09:07:36] [modloading-worker-0/INFO] [Jade]: Start loading plugin at de.maxhenkel.pipez.integration.waila.PluginPipes
+[09:07:36] [modloading-worker-0/INFO] [Jade]: Start loading plugin at com.hollingsworth.arsnouveau.client.waila.WailaArsNouveauPlugin
+[09:07:36] [modloading-worker-0/INFO] [Jade]: Start loading plugin at com.aetherteam.aether.integration.jade.AetherJadePlugin
+[09:07:36] [modloading-worker-0/INFO] [Jade]: Start loading plugin at net.blay09.mods.cookingforblockheads.compat.ForgeJadeCookingForBlockheadsPlugin
+[09:07:36] [modloading-worker-0/INFO] [Jade]: Start loading plugin at twilightforest.compat.jade.JadeCompat
+[09:07:36] [modloading-worker-0/INFO] [Jade]: Start loading plugin at net.p3pp3rf1y.sophisticatedstorage.compat.jade.StorageJadePlugin
+[09:07:36] [modloading-worker-0/INFO] [Jade]: Start loading plugin at net.brnbrd.delightful.compat.jade.DelightfulJadePlugin
+[09:07:36] [modloading-worker-0/INFO] [Jade]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
+[09:07:36] [modloading-worker-0/INFO] [Jade]: Start loading plugin at com.blakebr0.mysticalagriculture.compat.JadeCompat
+[09:07:36] [modloading-worker-0/INFO] [Jade]: Start loading plugin at com.blakebr0.mysticalagradditions.compat.JadeCompat
+[09:07:36] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[09:07:36] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[09:07:36] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[09:07:36] [modloading-worker-0/INFO] [Jade]: Start loading plugin at appeng.integration.modules.jade.JadeModule
+[09:07:36] [modloading-worker-0/INFO] [Jade]: Start loading plugin at de.maxhenkel.easyvillagers.integration.waila.PluginEasyVillagers
+[09:07:36] [modloading-worker-0/INFO] [Jade]: Start loading plugin at reliquary.compat.jade.JadeCompat
+[09:07:36] [modloading-worker-0/INFO] [Jade]: Start loading plugin at net.mehvahdjukaar.supplementaries.integration.JadeCompat
+[09:07:36] [modloading-worker-0/INFO] [Jade]: Start loading plugin at com.jaquadro.minecraft.storagedrawers.integration.Waila
+[09:07:37] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09:07:39] [main/INFO] [Supplementaries]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack (supplementaries) in: 149 ms
+[09:07:45] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/server/commands/EnchantCommand
+[09:07:46] [main/INFO] [bountiful]: Adding serverside commands..
+[09:07:46] [main/INFO] [zeta-internal]: Dispatching ForgeZAddReloadListener (as ZAddReloadListener) to 2 listeners
+[09:07:46] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs]: Adding datapack listener capsid_recipes
+[09:07:46] [main/INFO] [quark-zeta]: Dispatching ForgeZAddReloadListener (as ZAddReloadListener) to 2 listeners
+[09:07:46] [main/INFO] [quark-zeta]: Dispatching AdvancementModifierRegistry$1 (as ZGatherAdvancementModifiers) to 1 listener
+[09:07:47] [Worker-Main-4/WARN] [AlmostUnified]: The following tags are invalid and will be ignored: [forge:ingots/obsidian, forge:plates/cobalt, forge:nuggets/graphite, forge:ores/amber, forge:rods/iridium, forge:raw_materials/cobalt, forge:rods/peridot, forge:gears/chrome, forge:ores/bitumen, forge:ores/steel, forge:raw_materials/lumium, forge:raw_materials/peridot, forge:raw_materials/iridium, forge:gears/graphite, forge:plates/osmium, forge:rods/aeternium, forge:rods/zinc, forge:storage_blocks/raw_netherite, forge:storage_blocks/raw_invar, forge:storage_blocks/raw_lapis, forge:rods/lapis, forge:nuggets/apatite, forge:wires/apatite, forge:storage_blocks/raw_cobalt, forge:gems/aluminum, forge:raw_materials/steel, forge:rods/emerald, forge:wires/fluorite, forge:dusts/mithril, forge:ores/tungsten, forge:storage_blocks/raw_coal_coke, forge:gears/mithril, forge:gems/silver, forge:storage_blocks/raw_obsidian, forge:storage_blocks/raw_bitumen, forge:raw_materials/signalum, forge:gems/electrum, forge:nuggets/potassium_nitrate, forge:gems/aeternium, forge:ores/elementium, forge:storage_blocks/mithril, forge:dusts/potassium_nitrate, forge:storage_blocks/raw_lumium, forge:wires/coal_coke, forge:gears/amber, forge:plates/aeternium, forge:nuggets/charcoal, forge:raw_materials/netherite, forge:rods/elementium, forge:plates/mithril, forge:nuggets/coal_coke, forge:dusts/aluminum, forge:plates/coal, forge:wires/diamond, forge:ingots/aluminum, forge:gems/invar, forge:nuggets/coal, forge:gems/elementium, forge:ingots/apatite, forge:storage_blocks/aeternium, forge:ingots/chrome, forge:gems/gold, forge:ores/cobalt, forge:rods/lead, forge:nuggets/amber, forge:plates/bitumen, forge:wires/steel, forge:gears/charcoal, forge:wires/amber, forge:storage_blocks/raw_sapphire, forge:rods/sapphire, forge:ingots/cinnabar, forge:ingots/emerald, forge:ores/signalum, forge:rods/silver, forge:wires/platinum, forge:rods/fluorite, forge:storage_blocks/raw_electrum, forge:gems/osmium, forge:storage_blocks/raw_fluorite, forge:ingots/sapphire, forge:gems/charcoal, forge:gems/obsidian, forge:wires/signalum, forge:gears/sulfur, forge:gears/apatite, forge:gears/aeternium, forge:rods/platinum, forge:gears/fluorite, forge:gems/iridium, forge:ingots/cobalt, forge:ores/platinum, forge:wires/emerald, forge:gems/coal, forge:gears/steel, forge:nuggets/iridium, forge:gears/potassium_nitrate, forge:rods/cobalt, forge:dusts/bitumen, forge:raw_materials/elementium, forge:ores/chrome, forge:plates/steel, forge:gears/osmium, forge:nuggets/peridot, forge:plates/elementium, forge:plates/fluorite, forge:rods/coal, forge:rods/tin, forge:plates/diamond, forge:nuggets/tungsten, forge:ores/iridium, forge:storage_blocks/obsidian, forge:raw_materials/platinum, forge:wires/coal, forge:gems/mithril, forge:gears/uranium, forge:raw_materials/bitumen, forge:dusts/platinum, forge:storage_blocks/raw_brass, forge:plates/sapphire, forge:rods/bitumen, forge:rods/uranium, forge:plates/peridot, forge:ores/graphite, forge:gears/cobalt, forge:raw_materials/obsidian, forge:plates/charcoal, forge:wires/sapphire, forge:wires/obsidian, forge:gears/cinnabar, forge:ingots/iridium, forge:ores/lumium, forge:storage_blocks/raw_aluminum, forge:storage_blocks/raw_cinnabar, forge:gems/amber, forge:storage_blocks/raw_aeternium, forge:storage_blocks/raw_mithril, forge:rods/aluminum, forge:nuggets/cobalt, forge:storage_blocks/peridot, forge:gears/coal, forge:ores/potassium_nitrate, forge:wires/charcoal, forge:ores/bronze, forge:nuggets/chrome, forge:ingots/potassium_nitrate, forge:ingots/sulfur, forge:wires/uranium, forge:storage_blocks/raw_constantan, forge:ores/enderium, forge:wires/netherite, forge:raw_materials/amber, forge:wires/zinc, forge:plates/uranium, forge:nuggets/emerald, forge:rods/enderium, forge:gems/steel, forge:raw_materials/aeternium, forge:nuggets/ruby, forge:raw_materials/sapphire, forge:plates/amber, forge:dusts/elementium, forge:ingots/fluorite, forge:wires/lead, forge:rods/cinnabar, forge:rods/ruby, forge:rods/sulfur, forge:dusts/aeternium, forge:raw_materials/ruby, forge:wires/peridot, forge:raw_materials/charcoal, forge:raw_materials/fluorite, forge:storage_blocks/raw_enderium, forge:ores/aluminum, forge:gears/platinum, forge:raw_materials/electrum, forge:rods/netherite, forge:storage_blocks/raw_diamond, forge:rods/diamond, forge:dusts/iridium, forge:raw_materials/mithril, forge:storage_blocks/raw_sulfur, forge:wires/aeternium, forge:wires/invar, forge:gears/peridot, forge:storage_blocks/amber, forge:gems/bitumen, forge:ores/coal_coke, forge:raw_materials/enderium, forge:nuggets/bitumen, forge:dusts/peridot, forge:plates/potassium_nitrate, forge:storage_blocks/raw_platinum, forge:plates/coal_coke, forge:ingots/coal, forge:storage_blocks/raw_elementium, forge:nuggets/aeternium, forge:wires/nickel, forge:dusts/tungsten, forge:gears/iridium, forge:storage_blocks/tungsten, forge:ingots/charcoal, forge:ores/netherite, forge:wires/bitumen, forge:rods/nickel, forge:wires/cinnabar, forge:plates/sulfur, forge:gems/constantan, forge:plates/lapis, forge:gears/elementium, forge:gems/copper, forge:rods/mithril, forge:gems/signalum, forge:ingots/platinum, forge:storage_blocks/raw_signalum, forge:rods/constantan, forge:raw_materials/potassium_nitrate, forge:plates/graphite, forge:raw_materials/aluminum, forge:gems/bronze, forge:raw_materials/sulfur, forge:storage_blocks/chrome, forge:gems/uranium, forge:wires/elementium, forge:gems/zinc, forge:wires/lapis, forge:wires/potassium_nitrate, forge:rods/steel, forge:plates/apatite, forge:nuggets/cinnabar, forge:storage_blocks/raw_steel, forge:rods/signalum, forge:storage_blocks/raw_peridot, forge:raw_materials/constantan, forge:ores/brass, forge:ingots/aeternium, forge:wires/mithril, forge:raw_materials/invar, forge:storage_blocks/raw_coal, forge:ingots/ruby, forge:raw_materials/coal, forge:gems/nickel, forge:dusts/amber, forge:raw_materials/lapis, forge:nuggets/aluminum, forge:gears/aluminum, forge:rods/coal_coke, forge:storage_blocks/raw_apatite, forge:nuggets/sulfur, forge:rods/amber, forge:gears/obsidian, forge:rods/graphite, forge:ores/peridot, forge:rods/bronze, forge:plates/platinum, forge:wires/ruby, forge:dusts/zinc, forge:ores/constantan, forge:wires/tin, forge:storage_blocks/raw_charcoal, forge:storage_blocks/cobalt, forge:nuggets/obsidian, forge:storage_blocks/raw_amber, forge:rods/chrome, forge:gems/graphite, forge:gems/lead, forge:raw_materials/diamond, forge:storage_blocks/raw_tungsten, forge:storage_blocks/raw_graphite, forge:ingots/bitumen, forge:ingots/mithril, forge:gems/brass, forge:wires/sulfur, forge:gears/zinc, forge:gems/tungsten, forge:rods/tungsten, forge:storage_blocks/raw_emerald, forge:wires/osmium, forge:storage_blocks/raw_chrome, forge:storage_blocks/raw_ruby, forge:raw_materials/cinnabar, forge:plates/emerald, forge:ingots/coal_coke, forge:storage_blocks/potassium_nitrate, forge:gems/potassium_nitrate, forge:gems/coal_coke, forge:raw_materials/apatite, forge:rods/lumium, forge:wires/aluminum, forge:gears/tungsten, forge:gems/peridot, forge:rods/charcoal, forge:gears/bitumen, forge:rods/apatite, forge:gems/tin, forge:wires/graphite, forge:ores/invar, forge:gems/lumium, forge:ores/electrum, forge:nuggets/sapphire, forge:wires/lumium, forge:wires/constantan, forge:ingots/diamond, forge:raw_materials/bronze, forge:plates/chrome, forge:wires/iridium, forge:ores/charcoal, forge:gems/platinum, forge:storage_blocks/aluminum, forge:nuggets/fluorite, forge:gems/chrome, forge:wires/cobalt, forge:raw_materials/emerald, forge:plates/tungsten, forge:rods/obsidian, forge:rods/osmium, forge:raw_materials/brass, forge:raw_materials/chrome, forge:wires/enderium, forge:ingots/peridot, forge:gems/iron, forge:raw_materials/graphite, forge:wires/tungsten, forge:ingots/amber, forge:ores/aeternium, forge:nuggets/diamond, forge:wires/bronze, forge:storage_blocks/raw_bronze, forge:storage_blocks/raw_iridium, forge:storage_blocks/raw_potassium_nitrate, forge:plates/cinnabar, forge:storage_blocks/iridium, forge:gears/coal_coke, forge:wires/brass, forge:nuggets/lapis, forge:wires/silver, forge:gems/cobalt, forge:ingots/lapis, forge:plates/aluminum, forge:raw_materials/coal_coke, forge:ores/obsidian, forge:raw_materials/tungsten, forge:nuggets/platinum, forge:plates/ruby, forge:gems/netherite, forge:dusts/coal_coke, forge:rods/invar, forge:gears/brass, forge:storage_blocks/platinum, forge:gems/enderium, forge:wires/chrome, forge:nuggets/mithril, forge:ingots/tungsten, forge:dusts/brass, forge:dusts/chrome, forge:ores/mithril, forge:rods/potassium_nitrate, forge:plates/iridium]
+[09:07:49] [main/INFO] [placebo]: Registered 33 additional loot tables.
+[09:07:49] [main/WARN] [AlmostUnified]: Recipe count: 27793
+[09:07:52] [main/WARN] [AlmostUnified]: Recipe count afterwards: 27686 (done in 3.276 s)
+[09:07:52] [main/INFO] [Cucumber Library]: Registered 0 recipes in 0 ms
+[09:07:53] [main/WARN] [com.simibubi.create.Create]: Your custom createaddition:rolling/brass_ingot recipe (createaddition:rolling/brass_ingot) specified a duration. Durations have no impact on this type of recipe.
+[09:07:53] [main/WARN] [com.simibubi.create.Create]: Your custom createaddition:rolling/electrum_ingot recipe (createaddition:rolling/electrum_ingot) specified a duration. Durations have no impact on this type of recipe.
+[09:07:53] [main/WARN] [com.simibubi.create.Create]: Your custom createaddition:rolling/straw recipe (createaddition:rolling/straw) specified a duration. Durations have no impact on this type of recipe.
+[09:07:53] [main/WARN] [com.simibubi.create.Create]: Your custom createaddition:rolling/copper_ingot recipe (createaddition:rolling/copper_ingot) specified a duration. Durations have no impact on this type of recipe.
+[09:07:53] [main/WARN] [com.simibubi.create.Create]: Your custom createaddition:rolling/electrum_plate recipe (createaddition:rolling/electrum_plate) specified a duration. Durations have no impact on this type of recipe.
+[09:07:53] [main/WARN] [com.simibubi.create.Create]: Your custom createaddition:rolling/iron_plate recipe (createaddition:rolling/iron_plate) specified a duration. Durations have no impact on this type of recipe.
+[09:07:53] [main/WARN] [com.simibubi.create.Create]: Your custom createaddition:rolling/gold_plate recipe (createaddition:rolling/gold_plate) specified a duration. Durations have no impact on this type of recipe.
+[09:07:53] [main/WARN] [com.simibubi.create.Create]: Your custom createaddition:rolling/iron_ingot recipe (createaddition:rolling/iron_ingot) specified a duration. Durations have no impact on this type of recipe.
+[09:07:53] [main/WARN] [com.simibubi.create.Create]: Your custom createaddition:rolling/gold_ingot recipe (createaddition:rolling/gold_ingot) specified a duration. Durations have no impact on this type of recipe.
+[09:07:54] [main/WARN] [com.simibubi.create.Create]: Your custom createaddition:rolling/copper_plate recipe (createaddition:rolling/copper_plate) specified a duration. Durations have no impact on this type of recipe.
+[09:07:54] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Loaded 189 recipes
+[09:07:54] [main/INFO] [com.possible_triangle.sliceanddice.SliceAndDice]: Injecting recipes
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:apotheosis:potion_charm_enchanting
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:ars_nouveau:mirror_shield_3
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:ars_nouveau:mirror_shield_2
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:ars_nouveau:mirror_shield_1
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:ars_nouveau:soulbound_1
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/brown_mushroom_colony
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/bamboo_trapdoor
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/smoked_ham
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:aether_cutting/skyroot_wood
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/mangrove_trapdoor
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/oak_trapdoor
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/leather_leggings
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/apple_pie
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/acacia_hanging_sign
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/cake
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/sweet_berry_cheesecake
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/crimson_stem
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/cabbage
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/jungle_door
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/oxeye_daisy
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/bamboo_hanging_sign
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/cherry_door
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/acacia_door
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:delightful_integration/ars_nouveau/cutting/blue_archwood_wood
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/echo_door
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/orange_tulip
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/mangrove_door
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/saddle
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/cherry_hanging_sign
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/spruce_trapdoor
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/warped_door
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/jungle_trapdoor
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/warped_hyphae
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:delightful_integration/ars_nouveau/cutting/green_archwood_log
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/spruce_door
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/bamboo_door
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:delightful_cutting/cantaloupe
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/chocolate_pie
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/dandelion
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/dark_oak_wood
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/leather_helmet
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/crimson_door
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/red_mushroom_colony
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:delightful_cutting/mini_melon
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/jungle_log
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:delightful_integration/cooked_venison
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/birch_wood
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/kelp_roll
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:aether_cutting/golden_oak_log
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/leather_boots
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:delightful_integration/ars_nouveau/cutting/red_archwood_log
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:delightful_integration/ars_nouveau/cutting/purple_archwood_wood
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/dark_oak_door
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/mangrove_hanging_sign
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/gravel
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/warped_trapdoor
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/oak_wood
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/spruce_log
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/cooked_cod
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:oceansdelight_cutting/elder_guardian_slab
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/wild_potatoes
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/birch_hanging_sign
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/echo_wood
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/cherry_wood
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/oak_hanging_sign
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/allium
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/echo_trapdoor
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/red_tulip
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/spruce_wood
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/crimson_hyphae
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/bricks
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/cooked_salmon
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/salmon
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/lily_of_the_valley
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/birch_log
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/warped_stem
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/birch_sign
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:supplementaries_integration/ash_bricks_fd
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/crimson_hanging_sign
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/rice_panicle
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/cooked_mutton
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/white_tulip
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:delightful_cutting/wild_salmonberries
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/amethyst_block
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:delightful_cutting/cactus
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:delightful_cutting/clover
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/wither_rose
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/porkchop
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/jungle_hanging_sign
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/oak_sign
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/ink_sac
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/acacia_sign
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:oceansdelight_cutting/guardian
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/mangrove_sign
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/cherry_trapdoor
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/mangrove_log
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/oak_door
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:aether_cutting/skyroot_log
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/spruce_hanging_sign
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/nether_bricks
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/cherry_sign
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:delightful_cutting/green_tea_leaves
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:delightful_cutting/sugar_cane
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/spruce_sign
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:delightful_integration/venison
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/acacia_trapdoor
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:supplementaries_integration/lapis_bricks_fd
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/stone
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/bamboo_block
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/bamboo_sign
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/echo_log
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:oceansdelight_cutting/pufferfish
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:delightful_cutting/salmonberry_pie
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/echo_sign
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/birch_trapdoor
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/quartz_block
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/leather_chestplate
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/mangrove_wood
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/wild_beetroots
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/tag_dough
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/mutton
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/pink_tulip
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/acacia_wood
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/wild_carrots
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/acacia_log
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/melon
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:delightful_integration/ars_nouveau/cutting/purple_archwood_log
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/crimson_sign
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:oceansdelight_cutting/tentacles
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/echo_hanging_sign
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/cornflower
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/deepslate
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/warped_sign
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/beef
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:aether_cutting/golden_oak_wood
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:endersdelight_cutting/ender_shard
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:endersdelight_cutting/sight_fragment
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:delightful_integration/quark/cactus_flesh_from_cactus_block
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/leather_horse_armor
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:endersdelight_cutting/shulker_filet
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/oak_log
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/jungle_wood
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/cooked_chicken
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/dark_oak_trapdoor
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/azure_bluet
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/chicken
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/wild_onions
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:delightful_integration/ars_nouveau/cutting/red_archwood_wood
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:delightful_cutting/source_berry_pie
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/dark_oak_hanging_sign
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/cod
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/dark_oak_log
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/clay
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/dark_oak_sign
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/warped_hanging_sign
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:delightful_integration/ars_nouveau/cutting/green_archwood_wood
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/crimson_trapdoor
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/jungle_sign
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/wild_tomatoes
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/poppy
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:delightful_integration/ars_nouveau/cutting/blue_archwood_log
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/blue_orchid
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/wild_rice
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/pumpkin
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/birch_door
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:endersdelight_chorus_pie_slice
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:delightful_cutting/pumpkin_pie
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/cherry_log
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/wild_cabbages
+[09:07:54] [main/WARN] [com.recipeessentials.RecipeEssentials]: Recipe without matching ID:sliceanddice:farmersdelight_cutting/ham
+[09:07:54] [main/INFO] [quark]: [Automatic Recipe Unlock] Removed 10658 recipe advancements
+[09:07:54] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 1062 advancements
+[09:07:54] [main/INFO] [placebo]: Registered 27 additional recipes.
+[09:07:54] [main/INFO] [top.theillusivec4.curios.Curios]: Loaded 20 curio slots
+[09:07:54] [main/INFO] [top.theillusivec4.curios.Curios]: Loaded 12 curio entities
+[09:07:54] [main/ERROR] [net.blay09.mods.farmingforblockheads.FarmingForBlockheads]: Parsing error loading Farming for Blockheads data file at farmingforblockheads:farmingforblockheads_compat/quark_saplings.json
+com.google.gson.JsonSyntaxException: Expected item to be an item, was unknown string 'quark:pink_blossom_sapling'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23608!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23608!/:?]
+	at net.blay09.mods.farmingforblockheads.registry.json.ItemStackSerializer.deserialize(ItemStackSerializer.java:18) ~[farmingforblockheads-forge-1.20.1-14.0.2.jar%23488!/:14.0.2]
+	at net.blay09.mods.farmingforblockheads.registry.json.ItemStackSerializer.deserialize(ItemStackSerializer.java:14) ~[farmingforblockheads-forge-1.20.1-14.0.2.jar%23488!/:14.0.2]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23152!/:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212) ~[gson-2.10.jar%23152!/:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:431) ~[gson-2.10.jar%23152!/:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:391) ~[gson-2.10.jar%23152!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23152!/:?]
+	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.read(CollectionTypeAdapterFactory.java:82) ~[gson-2.10.jar%23152!/:?]
+	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.read(CollectionTypeAdapterFactory.java:61) ~[gson-2.10.jar%23152!/:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212) ~[gson-2.10.jar%23152!/:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:431) ~[gson-2.10.jar%23152!/:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:391) ~[gson-2.10.jar%23152!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23152!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23152!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%23152!/:?]
+	at net.blay09.mods.farmingforblockheads.registry.json.MarketRegistryDataSerializer.deserialize(MarketRegistryDataSerializer.java:30) ~[farmingforblockheads-forge-1.20.1-14.0.2.jar%23488!/:14.0.2]
+	at net.blay09.mods.farmingforblockheads.registry.json.MarketRegistryDataSerializer.deserialize(MarketRegistryDataSerializer.java:11) ~[farmingforblockheads-forge-1.20.1-14.0.2.jar%23488!/:14.0.2]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23152!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23152!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%23152!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1062) ~[gson-2.10.jar%23152!/:?]
+	at net.blay09.mods.farmingforblockheads.registry.market.MarketRegistryLoader.m_6213_(MarketRegistryLoader.java:55) ~[farmingforblockheads-forge-1.20.1-14.0.2.jar%23488!/:14.0.2]
+	at net.minecraft.server.packs.resources.ResourceManagerReloadListener.m_10759_(ResourceManagerReloadListener.java:15) ~[server-1.20.1-20230612.114412-srg.jar%23608!/:?]
+	at java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23608!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23608!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23608!/:?]
+	at net.minecraft.server.Main.main(Main.java:220) ~[server-1.20.1-20230612.114412-srg.jar%23608!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.1.jar%23190!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.1.jar%23190!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.1.jar%23190!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.9.jar%23102!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.9.jar%23102!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.9.jar%23102!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) [modlauncher-10.0.9.jar%23102!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) [modlauncher-10.0.9.jar%23102!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.9.jar%23102!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.9.jar%23102!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+	at com.mohistmc.MohistMCStart.main(MohistMCStart.java:109) [server.jar:1.20.1-739]
+[09:07:54] [main/ERROR] [net.blay09.mods.farmingforblockheads.FarmingForBlockheads]: Parsing error loading Farming for Blockheads data file at farmingforblockheads:farmingforblockheads_compat/thermalcultivation_seeds.json
+com.google.gson.JsonSyntaxException: Expected item to be an item, was unknown string 'thermal:amaranth_seeds'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23608!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23608!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23608!/:?]
+	at net.blay09.mods.farmingforblockheads.registry.json.ItemStackSerializer.deserialize(ItemStackSerializer.java:22) ~[farmingforblockheads-forge-1.20.1-14.0.2.jar%23488!/:14.0.2]
+	at net.blay09.mods.farmingforblockheads.registry.json.ItemStackSerializer.deserialize(ItemStackSerializer.java:14) ~[farmingforblockheads-forge-1.20.1-14.0.2.jar%23488!/:14.0.2]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23152!/:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212) ~[gson-2.10.jar%23152!/:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:431) ~[gson-2.10.jar%23152!/:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:391) ~[gson-2.10.jar%23152!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23152!/:?]
+	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.read(CollectionTypeAdapterFactory.java:82) ~[gson-2.10.jar%23152!/:?]
+	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.read(CollectionTypeAdapterFactory.java:61) ~[gson-2.10.jar%23152!/:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212) ~[gson-2.10.jar%23152!/:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:431) ~[gson-2.10.jar%23152!/:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:391) ~[gson-2.10.jar%23152!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23152!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23152!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%23152!/:?]
+	at net.blay09.mods.farmingforblockheads.registry.json.MarketRegistryDataSerializer.deserialize(MarketRegistryDataSerializer.java:30) ~[farmingforblockheads-forge-1.20.1-14.0.2.jar%23488!/:14.0.2]
+	at net.blay09.mods.farmingforblockheads.registry.json.MarketRegistryDataSerializer.deserialize(MarketRegistryDataSerializer.java:11) ~[farmingforblockheads-forge-1.20.1-14.0.2.jar%23488!/:14.0.2]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23152!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23152!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%23152!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1062) ~[gson-2.10.jar%23152!/:?]
+	at net.blay09.mods.farmingforblockheads.registry.market.MarketRegistryLoader.m_6213_(MarketRegistryLoader.java:55) ~[farmingforblockheads-forge-1.20.1-14.0.2.jar%23488!/:14.0.2]
+	at net.minecraft.server.packs.resources.ResourceManagerReloadListener.m_10759_(ResourceManagerReloadListener.java:15) ~[server-1.20.1-20230612.114412-srg.jar%23608!/:?]
+	at java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23608!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23608!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23608!/:?]
+	at net.minecraft.server.Main.main(Main.java:220) ~[server-1.20.1-20230612.114412-srg.jar%23608!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.1.jar%23190!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.1.jar%23190!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.1.jar%23190!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.9.jar%23102!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.9.jar%23102!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.9.jar%23102!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) [modlauncher-10.0.9.jar%23102!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) [modlauncher-10.0.9.jar%23102!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.9.jar%23102!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.9.jar%23102!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+	at com.mohistmc.MohistMCStart.main(MohistMCStart.java:109) [server.jar:1.20.1-739]
+[09:07:54] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager]: Could not decode GlobalLootModifier with json id delightful:crab_legs_from_crab_crabbersdelight - error: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: crabbersdelight:crab_legs
+[09:07:54] [main/INFO] [twilightforest]: Loaded 9 Stalactite configs!
+[09:07:54] [main/INFO] [bountiful]: Trying to load unloaded files from: config\bountiful\bounty_pools
+[09:07:54] [main/INFO] [bountiful]: Trying to load unloaded files from: config\bountiful\bounty_decrees
+[09:07:54] [main/INFO] [Dungeon Crawl]: Loading data...
+[09:07:55] [main/INFO] [Dungeon Crawl]: Done.
+[09:07:55] [main/INFO] [quark-zeta]: Modified advancement minecraft:husbandry/wax_on with 2 patches
+[09:07:55] [main/INFO] [quark-zeta]: Modified advancement minecraft:adventure/kill_a_mob with 3 patches
+[09:07:55] [main/INFO] [quark-zeta]: Modified advancement minecraft:husbandry/bred_all_animals with 3 patches
+[09:07:55] [main/INFO] [quark-zeta]: Modified advancement minecraft:adventure/kill_all_mobs with 3 patches
+[09:07:55] [main/INFO] [quark-zeta]: Modified advancement minecraft:husbandry/balanced_diet with 3 patches
+[09:07:55] [main/INFO] [quark-zeta]: Modified advancement minecraft:husbandry/plant_seed with 1 patches
+[09:07:55] [main/INFO] [quark-zeta]: Modified advancement minecraft:nether/all_effects with 2 patches
+[09:07:55] [main/INFO] [quark-zeta]: Modified advancement minecraft:husbandry/wax_off with 2 patches
+[09:07:55] [main/INFO] [quark-zeta]: Modified advancement minecraft:adventure/adventuring_time with 1 patches
+[09:07:55] [main/INFO] [quark-zeta]: Modified advancement minecraft:nether/all_potions with 1 patches
+[09:07:55] [main/INFO] [enderio]: Data loader for eio_soul/spawner loaded 73 jsons
+[09:07:55] [main/INFO] [enderio]: Data loader for eio_soul/engine loaded 5 jsons
+[09:07:55] [main/INFO] [Supplementaries]: Loaded 27 flute songs
+[09:07:55] [main/INFO] [Apotheosis : Enchantment]: Registered 34 enchanting_stats.
+[09:07:55] [main/INFO] [Apotheosis : Adventure]: Registered 6 rarities.
+[09:07:55] [main/INFO] [Apotheosis : Adventure]: Registered 98 affixes.
+[09:07:55] [main/ERROR] [Apotheosis : Adventure]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:rare for category curios:spellbookRequired: 2; Provided: 0
+[09:07:55] [main/ERROR] [Apotheosis : Adventure]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:epic for category curios:spellbookRequired: 2; Provided: 0
+[09:07:55] [main/ERROR] [Apotheosis : Adventure]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:mythic for category helmetRequired: 3; Provided: 2
+[09:07:55] [main/ERROR] [Apotheosis : Adventure]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:mythic for category bootsRequired: 3; Provided: 2
+[09:07:55] [main/ERROR] [Apotheosis : Adventure]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:mythic for category curios:spellbookRequired: 3; Provided: 0
+[09:07:55] [main/ERROR] [Apotheosis : Adventure]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category helmetRequired: 4; Provided: 2
+[09:07:55] [main/ERROR] [Apotheosis : Adventure]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category bootsRequired: 4; Provided: 2
+[09:07:55] [main/ERROR] [Apotheosis : Adventure]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category curios:spellbookRequired: 4; Provided: 0
+[09:07:55] [main/ERROR] [Apotheosis : Adventure]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category bowRequired: 5; Provided: 4
+[09:07:55] [main/ERROR] [Apotheosis : Adventure]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category crossbowRequired: 5; Provided: 4
+[09:07:55] [main/ERROR] [Apotheosis : Adventure]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category pickaxeRequired: 5; Provided: 4
+[09:07:55] [main/ERROR] [Apotheosis : Adventure]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category shovelRequired: 5; Provided: 4
+[09:07:55] [main/INFO] [Apotheosis : Adventure]: Registered 34 gems.
+[09:07:55] [main/INFO] [Apotheosis : Adventure]: Registered 100 affix_loot_entries.
+[09:07:55] [main/INFO] [placebo]: Registered 28 gear_sets.
+[09:07:55] [main/INFO] [Apotheosis : Adventure]: Registered 25 bosses.
+[09:07:55] [main/INFO] [Apotheosis : Adventure]: Registered 8 rogue_spawners.
+[09:07:55] [main/INFO] [Apotheosis : Adventure]: Registered 5 minibosses.
+[09:07:55] [main/INFO] [Apotheosis : Village]: Registered 29 wanderer_trades.
+[09:07:56] [main/INFO] [zeta-internal]: Dispatching ZTagsUpdated to 1 listener
+[09:07:56] [main/INFO] [Moonlight]: Applied 7 data villager trades
+[09:07:56] [main/INFO] [Supplementaries]: Finished additional setup in 22 ms
+[09:07:56] [main/INFO] [Cucumber Library]: Loaded cucumber-tags.json in 5 ms
+[09:07:56] [main/INFO] [Mystical Agriculture]: Recipe ingredient caching done in 1 ms
+[09:07:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.20.1
+[09:07:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[09:07:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[09:07:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Generating keypair
+[09:07:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[09:07:57] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener]: Using default channel type
+[09:07:57] [Server thread/INFO] [Minecraft]: This server is running Mohist version 1.20.1-739 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT, Forge version 47.3.1, NeoForge version 47.1.105)
+[09:08:00] [Server thread/INFO] [Minecraft]: Debug logging is enabled
+[09:08:00] [Server thread/INFO] []: Server Ping Player Sample Count: 20
+[09:08:00] [Server thread/INFO] [Minecraft]: Using 4 threads for Netty based IO
+[09:08:00] [Server thread/INFO] [net.skinsrestorer.bukkit.SRBukkitBootstrap]: [SkinsRestorer] Loading SkinsRestorer v15.0.14
+[09:08:00] [Server thread/INFO] [net.skinsrestorer.bukkit.SRBukkitBootstrap]: [SkinsRestorer] Enabling SkinsRestorer v15.0.14
+[09:08:01] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.placebo]: Patching IForgeItemStack#getEnchantmentLevel
+[09:08:01] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.placebo]: Patching IForgeItemStack#getEnchantmentLevel
+[09:08:04] [Server thread/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.20.1[32;1m.[0;39m
+[09:08:04] [Server thread/INFO] [journeymap]: Loading JourneyMap Forge Configs
+[09:08:04] [Server thread/INFO] [FluxNetworks]: Energy blacklist loaded: 1 block entries, 0 item entries
+[09:08:05] [Server thread/INFO] [spark]: Starting background profiler...
+[09:08:05] [Server thread/INFO] [spark]: The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[09:08:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[09:08:05] [Server thread/WARN] [mixin]: @Redirect conflict. Skipping securitycraft.mixins.json:camera.ChunkMapMixin->@Redirect::securitycraft$getCameraSectionPos(Lnet/minecraft/server/level/ServerPlayer;)Lnet/minecraft/core/SectionPos; with priority 1100, already redirected by railways-common.mixins.json:conductor_possession.ChunkMapMixin->@Redirect::securitycraft$getCameraSectionPos(Lnet/minecraft/server/level/ServerPlayer;)Lnet/minecraft/core/SectionPos; with priority 1200
+[09:08:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[09:08:08] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[09:08:08] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[09:08:08] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[09:08:08] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[09:08:08] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 17%
+[09:08:09] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 55%
+[09:08:09] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 2916 ms
+[09:08:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension twilightforest:twilight_forest
+[09:08:10] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[09:08:10] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[09:08:10] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[09:08:11] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 48%
+[09:08:11] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 83%
+[09:08:12] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 83%
+[09:08:12] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 83%
+[09:08:13] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 83%
+[09:08:13] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 84%
+[09:08:14] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 89%
+[09:08:14] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 94%
+[09:08:15] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 5339 ms
+[09:08:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension aether:the_aether
+[09:08:15] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[09:08:15] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[09:08:16] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[09:08:16] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 47%
+[09:08:17] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 83%
+[09:08:17] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 83%
+[09:08:18] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 83%
+[09:08:18] [Worker-Main-4/WARN] [net.minecraft.world.level.levelgen.heightproviders.UniformHeight]: Empty height range: [6 above bottom--1 absolute]
+[09:08:18] [Worker-Main-4/WARN] [net.minecraft.world.level.levelgen.heightproviders.UniformHeight]: Empty height range: [6 above bottom--1 absolute]
+[09:08:18] [Worker-Main-4/WARN] [net.minecraft.world.level.levelgen.heightproviders.UniformHeight]: Empty height range: [6 above bottom--1 absolute]
+[09:08:18] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 88%
+[09:08:18] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 3875 ms
+[09:08:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_nether
+[09:08:19] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[09:08:19] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[09:08:20] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[09:08:20] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 74%
+[09:08:21] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 83%
+[09:08:21] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 83%
+[09:08:22] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 83%
+[09:08:22] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 83%
+[09:08:23] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 83%
+[09:08:23] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 83%
+[09:08:23] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 83%
+[09:08:24] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 86%
+[09:08:24] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 88%
+[09:08:25] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 90%
+[09:08:25] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 94%
+[09:08:26] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 96%
+[09:08:27] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 99%
+[09:08:27] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 8138 ms
+[09:08:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension deeperdarker:otherside
+[09:08:27] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[09:08:27] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[09:08:28] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 52%
+[09:08:28] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 83%
+[09:08:29] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 83%
+[09:08:29] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 83%
+[09:08:30] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 83%
+[09:08:30] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 83%
+[09:08:31] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 84%
+[09:08:31] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 85%
+[09:08:32] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 87%
+[09:08:32] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 89%
+[09:08:33] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 91%
+[09:08:33] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 93%
+[09:08:34] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 95%
+[09:08:34] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 98%
+[09:08:34] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 7693 ms
+[09:08:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_end
+[09:08:35] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[09:08:35] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[09:08:35] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 83%
+[09:08:36] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1320 ms
+[09:08:36] [Server thread/INFO] [com.mohistmc.plugins.Main]: [Mohist] Enabling Mohist v1.20.1
+[09:08:36] [Server thread/INFO] [Minecraft]: Server permissions file permissions.yml is empty, ignoring it
+[09:08:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (31.678s)! For help, type "help"
+[09:08:36] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Successfully initialized permission handler forge:default_handler
+[09:08:36] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Forwarding forge permission[forge:default_handler] to bukkit[mohist:permission]
+[09:08:36] [Server thread/INFO] [bountiful]: Registering Bounty Board Jigsaw Piece for Village Type: plains
+[09:08:36] [Server thread/INFO] [bountiful]: Registering Bounty Board Jigsaw Piece for Village Type: savanna
+[09:08:36] [Server thread/INFO] [bountiful]: Registering Bounty Board Jigsaw Piece for Village Type: snowy
+[09:08:36] [Server thread/INFO] [bountiful]: Registering Bounty Board Jigsaw Piece for Village Type: taiga
+[09:08:36] [Server thread/INFO] [bountiful]: Registering Bounty Board Jigsaw Piece for Village Type: desert
+[09:08:36] [Server thread/INFO] [AE2:S]: Scanning class appeng.server.testplots.TestPlots for plots
+[09:08:36] [Server thread/INFO] [AE2:S]: Scanning class appeng.server.testplots.AutoCraftingTestPlots for plots
+[09:08:36] [Server thread/INFO] [AE2:S]: Scanning class appeng.server.testplots.InscriberTestPlots for plots
+[09:08:36] [Server thread/INFO] [AE2:S]: Scanning class appeng.server.testplots.P2PTestPlots for plots
+[09:08:36] [Server thread/INFO] [AE2:S]: Scanning class appeng.server.testplots.ItemP2PTestPlots for plots
+[09:08:36] [Server thread/INFO] [AE2:S]: Scanning class appeng.server.testplots.MemoryCardTestPlots for plots
+[09:08:36] [Server thread/INFO] [AE2:S]: Scanning class appeng.server.testplots.PatternProviderLockModePlots for plots
+[09:08:36] [Server thread/INFO] [AE2:S]: Scanning class appeng.server.testplots.PatternProviderPlots for plots
+[09:08:36] [Server thread/INFO] [AE2:S]: Scanning class appeng.server.testplots.SpatialTestPlots for plots
+[09:08:36] [Server thread/INFO] [AE2:S]: Scanning class appeng.server.testplots.QnbTestPlots for plots
+[09:08:36] [Server thread/INFO] [AE2:S]: Scanning class appeng.server.testplots.GuidebookPlot for plots
+[09:08:36] [Server thread/INFO] [AE2:S]: Scanning class appeng.server.testplots.SubnetPlots for plots
+[09:08:36] [Server thread/INFO] [AE2:S]: Scanning class appeng.server.testplots.AnnihilationPlaneTests for plots
+[09:08:36] [Server thread/INFO] [AE2:S]: Scanning class de.mari_023.ae2wtlib.AE2WTLibTestPlots for plots
+[09:08:36] [Server thread/INFO] [integrateddynamics]: Loading infobook /data/integrateddynamics/info/on_the_dynamics_of_integration.xml
+[09:08:36] [Server thread/INFO] [cyclopscore]: Loading infobook /data/cyclopscore/info/test.xml
+[09:08:36] [Server thread/INFO] [com.cupboard.Cupboard]: Loaded config for: smoothchunk.json
+[09:08:36] [Server thread/INFO] [com.cupboard.Cupboard]: Loaded config for: betterfpsdist.json
+[09:08:36] [Server thread/INFO] [com.cupboard.Cupboard]: Loaded config for: chunksending.json
+[09:08:37] [Server thread/INFO] [MEGA Cells]: (Re-)initialised bulk cell compression.
+[09:08:37] [Server thread/INFO] [patchouli]: Sending reload packet to clients
+[09:08:37] [Server thread/WARN] [ModernFix]: Dedicated server took 144.046 seconds to load
+[09:08:37] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[09:08:37] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[09:08:37] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[09:08:37] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[09:08:37] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[09:08:37] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[09:08:37] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[09:08:37] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.0.14[0;39m
+[09:08:37] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1m84169e2[0;39m
+[09:08:37] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[09:08:37] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[09:39:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping the server
+[09:39:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[09:39:25] [Server thread/INFO] [com.mohistmc.plugins.Main]: [Mohist] Disabling Mohist v1.20.1
+[09:39:25] [Server thread/INFO] [net.skinsrestorer.bukkit.SRBukkitBootstrap]: [SkinsRestorer] Disabling SkinsRestorer v15.0.14
+[09:39:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[09:39:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[09:39:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[09:39:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
+[09:39:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/aether:the_aether
+[09:39:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[09:39:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/deeperdarker:otherside
+[09:39:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[09:39:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/ae2:spatial_storage
+[09:39:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[09:39:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
+[09:39:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (the_aether): All chunks are saved
+[09:39:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09:39:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (otherside): All chunks are saved
+[09:39:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09:39:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[09:39:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+[09:39:34] [Server thread/INFO] [journeymap]: Loading JourneyMap Forge Configs
+[09:39:34] [Server thread/INFO] [FluxNetworks]: Energy blacklist loaded: 1 block entries, 0 item entries
